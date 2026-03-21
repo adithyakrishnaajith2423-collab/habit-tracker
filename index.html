@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Habit Tracker Pro</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>✨ Habit Tracker</h1>
+
+    <div class="input-box">
+      <input type="text" id="habitInput" placeholder="Enter your habit...">
+      <button onclick="addHabit()">➕</button>
+    </div>
+
+    <ul id="habitList"></ul>
+    <p id="streak">🔥 Streak: 0 days</p>
+
+<div class="progress-bar">
+  <div id="progress"></div>
+</div>
+  </div>
+
+  <script src="script.js"></script>
+  <audio id="clickSound" src="https://assets.mixkit.co/active_storage/sfx/2568/2568-preview.mp3"></audio>
+</body>
+</html>
